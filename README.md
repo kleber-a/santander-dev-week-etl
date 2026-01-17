@@ -150,12 +150,6 @@ OPENAI_API_KEY=sk-sua-chave-aqui
 python -m app.main
 ```
 
-Saída esperada:
-
-```text
-✅ ETL finalizado com sucesso!
-```
-
 ---
 
 ## 🧪 Validação do Funcionamento
