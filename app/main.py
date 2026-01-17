@@ -12,7 +12,6 @@ def main():
     df = Extract.from_csv(INPUT_PATH)
     df = Transform.add_marketing_messages(df)
     Load.to_csv(df, OUTPUT_PATH)
-    print("✅ ETL finalizado com sucesso!")
 
 if __name__ == "__main__":
     main()
